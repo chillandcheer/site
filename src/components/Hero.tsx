@@ -66,7 +66,7 @@ export default function Hero() {
           {/* Secondary image */}
           <div className="absolute bottom-0 left-0 h-[50%] w-[55%] overflow-hidden rounded-[1.5rem] border-4 border-cream-100 shadow-xl shadow-brown-700/20">
             <img
-              src="https://images.pixieset.com/801255711/09ec37ec64f0c459b626d5cdc8c4e5e9-xxlarge.png"
+              src="https://images.pixieset.com/801255711/496f54cc765a7e90eaf5db2e708d47ee-xxlarge.png"
               alt="Frozen slush drinks being garnished"
               className="h-full w-full object-cover"
               loading="lazy"
