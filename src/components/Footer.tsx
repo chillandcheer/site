@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Twitter, ArrowUp } from 'lucide-react';
+import { Instagram, Facebook, ArrowUp } from 'lucide-react';
 
 const cols = [
   { title: 'Explore', links: ['Services', 'Packages', 'Gallery', 'Reviews', 'FAQ'] },
@@ -25,7 +25,7 @@ export default function Footer() {
               Elegant, modern, and always a little playful.
             </p>
             <div className="mt-6 flex gap-3">
-              {[Instagram, Facebook, Twitter].map((Icon, i) => (
+              {[Instagram, Facebook].map((Icon, i) => (
                 <a
                   key={i}
                   href="#"
@@ -38,7 +38,18 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Link columns */}
+          {/const socialLinks = [
+  {
+    icon: Instagram,
+    url: "https://instagram.com/chillncheerstation",
+    label: "Instagram",
+  },
+  {
+    icon: Facebook,
+    url: "https://facebook.com/chillncheerstation",
+    label: "Facebook",
+  },
+];/}
           {cols.map((col) => (
             <div key={col.title}>
               <h4 className="font-display text-sm font-bold uppercase tracking-wider text-cream-100/90">
