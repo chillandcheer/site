@@ -57,7 +57,7 @@ export default function Hero() {
           <div className="absolute right-0 top-0 h-[85%] w-[70%] overflow-hidden rounded-[2rem] shadow-2xl shadow-brown-700/20">
             <img
               src="https://images.pixieset.com/801255711/bf7ebc7167a133dfdd28076ccf954d2f-xxlarge.png", 700, 950)}
-              alt="Elegant poured mocktail at a luxury event"
+              alt="Elegant mocktail bar at a luxury event"
               className="h-full w-full object-cover"
               loading="eager"
             />
