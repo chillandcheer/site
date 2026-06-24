@@ -9,7 +9,7 @@ const images: { src: string; alt: string; cat: Category; span?: string }[] = [
   { src: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', alt: 'Festival slush station', cat: 'Festivals' },
   { src: 'https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', alt: 'Private party drinks', cat: 'Private' },
   { src: 'https://images.pexels.com/photos/1283217/pexels-photo-1283217.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', alt: 'Cocktail being poured', cat: 'Weddings' },
-  { src: 'https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', alt: 'Garnished slush drinks', cat: 'Private', span: 'sm:col-span-2' },
+  { src: 'https://images.pixieset.com/801255711/69170255ee553c8055650453578d8238-xxlarge.png?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', alt: 'Garnished slush drinks', cat: 'Private', span: 'sm:col-span-2' },
   { src: 'https://images.pixieset.com/801255711/c4aa01660c03850ca18797778849a869-xxlarge.png?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', alt: 'Festival crowd enjoying drinks', cat: 'Festivals' },
   { src: 'https://images.pixieset.com/801255711/4c1915e63bb4e1d82a8413532bb57762-xxlarge.png?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', alt: 'Corporate branded bar', cat: 'Corporate' },
 ];
