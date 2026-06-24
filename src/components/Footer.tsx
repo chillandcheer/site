@@ -49,16 +49,7 @@ export default function Footer() {
     </a>
   ))}
 </div>
-                <a
-                  key={i}
-                  href="#"
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-cream-100/5 text-cream-100/70 transition-all duration-300 hover:bg-pink-500 hover:text-cream-100"
-                  aria-label="Social link"
-                >
-                  <Icon className="h-4 w-4" />
-                </a>
-              ))}
-            </div>
+            
           </div>
 
           {/* Social Links*/}
