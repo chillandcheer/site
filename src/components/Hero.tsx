@@ -39,9 +39,9 @@ export default function Hero() {
           {/* Stats */}
           <div className="mt-12 flex items-center justify-center gap-8 lg:justify-start">
             {[
-              { n: '★', l: '★' },
-              { n: '★', l: '★' },
-              { n: '★', l: '★' },
+              { n: '', l: '★★★★★' },
+              { n: '', l: '' },
+              { n: '', l: '' },
             ].map((s) => (
               <div key={s.l} className="text-center lg:text-left">
                 <p className="font-display text-3xl font-bold text-teal-500">{s.n}</p>
