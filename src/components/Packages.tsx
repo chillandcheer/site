@@ -109,7 +109,7 @@ export default function Packages() {
 
                 <a
                   href="#contact"
-                  className={`mt-8 inline-flex w-full items-center justify-center rounded-full px-6 py-3.5 text-sm font-semibold transition-all duration-300 ${
+                  className={`mt-8 inline-flex w-full items-center justify-center rounded-[5px] px-6 py-3.5 text-sm font-semibold transition-all duration-300 ${
                     p.featured
                       ? 'bg-pink-500 text-cream-100 shadow-lg shadow-pink-500/30 hover:bg-pink-600 hover:-translate-y-0.5'
                       : 'border border-brown-700/15 text-brown-700 hover:border-pink-500 hover:text-pink-500'
@@ -123,7 +123,7 @@ export default function Packages() {
         </div>
 
         <p className="mt-10 text-center text-sm text-cream-100/60">
-         Chill & Cheer does not supply, serve, or handle alcohol. If alcohol is used at the event, the client is fully responsible for obtaining all required permits, licensing, and compliance with local regulations.
+         Alcohol Polidy: Chill & Cheer does not supply, serve, or handle alcohol. If alcohol is used at the event, the client is fully responsible for obtaining all required permits, licensing, and compliance with local regulations.
         </p>
       </div>
     </section>
