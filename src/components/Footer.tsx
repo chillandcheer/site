@@ -36,18 +36,18 @@ export default function Footer() {
               Elegant, modern, and always a little playful.
             </p>
            <div className="mt-6 flex gap-3">
-  {socialLinks.map(({ icon: Icon, url, label }) => (
-    <a
-      key={label}
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex h-10 w-10 items-center justify-center rounded-full bg-cream-100/5 text-cream-100/70 transition-all duration-300 hover:bg-pink-500 hover:text-cream-100"
-      aria-label={label}
-    >
-      <Icon className="h-4 w-4" />
-    </a>
-  ))}
+ {socialLinks.map(({ icon: Icon, url, label }) => (
+  <a
+    key={label}
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex h-10 w-10 items-center justify-center rounded-full bg-cream-100/5 text-cream-100/70 transition-all duration-300 hover:bg-pink-500 hover:text-cream-100"
+    aria-label={label}
+  >
+    <Icon className="h-4 w-4" />
+  </a>
+))}
 </div>
             
           </div>
@@ -72,7 +72,7 @@ export default function Footer() {
               </ul>
             </div>
           ))}
-        </div>
+   
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-cream-100/10 pt-8 sm:flex-row">
           <p className="text-xs text-cream-100/50">
