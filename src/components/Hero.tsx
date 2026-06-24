@@ -57,7 +57,7 @@ export default function Hero() {
           <div className="absolute right-0 top-0 h-[85%] w-[70%] overflow-hidden rounded-[2rem] shadow-2xl shadow-brown-700/20">
             <img
               src={pexels('1283217', 700, 950)}
-              alt="Elegant poured cocktail at a luxury event"
+              alt="Elegant poured mocktail at a luxury event"
               className="h-full w-full object-cover"
               loading="eager"
             />
