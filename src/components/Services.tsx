@@ -7,7 +7,7 @@ const services = [
     title: 'Weddings',
     desc: 'A signature slush bar that becomes a centerpiece of your reception — elegant glassware, bespoke flavor pairings, and a team that blends seamlessly into your celebration.',
     accent: 'pink',
-    img: 'https://www.pexels.com/photo/newlyweds-kissing-under-veil-18005581/?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop',
+    img: 'https://images.pexels.com/photos/18005581/pexels-photo-18005581.jpeg?_gl=1*i21ah8*_ga*MTMwMjQ1NzkwMi4xNzgyMjM4OTc1*_ga_8JE65Q40S6*czE3ODIzMTQyNzkkbzMkZzEkdDE3ODIzMTQyNzkkajYwJGwwJGgw?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop',
   },
   {
     icon: Building2,
