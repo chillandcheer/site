@@ -65,7 +65,7 @@ export default function Gallery() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brown-700/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               <div className="absolute bottom-0 left-0 translate-y-3 p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                <span className="rounded-full bg-cream-100/90 px-3 py-1 text-xs font-semibold text-brown-700 backdrop-blur-sm">
+                <span className="rounded-[10px] bg-cream-100/90 px-3 py-1 text-xs font-semibold text-brown-700 backdrop-blur-sm">
                   {img.cat}
                 </span>
                 <p className="mt-2 font-display text-lg font-medium text-cream-100">{img.alt}</p>
