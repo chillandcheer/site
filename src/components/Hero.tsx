@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="animate-fade-up text-center lg:text-left">
           <span className="eyebrow mb-6">
             <Star className="h-3.5 w-3.5 fill-teal-500 text-teal-500" />
-            Luxury Mobile Slush Bars
+            Premium Mobile Slush Bar
           </span>
           <h1 className="font-display text-5xl font-bold leading-[1.05] text-brown-700 text-balance sm:text-6xl lg:text-7xl">
             Bring the fun.
