@@ -54,7 +54,7 @@ export default function Hero() {
         {/* Right: image collage */}
         <div className="relative mx-auto h-[420px] w-full max-w-md sm:h-[520px] lg:h-[600px]">
           {/* Main image */}
-          <div className="absolute right-0 top-0 h-[85%] w-[70%] overflow-hidden rounded-[2rem] shadow-2xl shadow-brown-700/20">
+          <div className="absolute right-0 top-0 h-[85%] w-[70%] overflow-hidden rounded-[1rem] shadow-2xl shadow-brown-700/20">
             <img
               src="https://images.pixieset.com/801255711/bf7ebc7167a133dfdd28076ccf954d2f-xxlarge.png"
               alt="Elegant mocktail bar at a luxury event"
