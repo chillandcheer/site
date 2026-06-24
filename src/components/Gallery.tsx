@@ -4,7 +4,7 @@ import { useReveal } from '../hooks/useReveal';
 type Category = 'All' | 'Weddings' | 'Corporate' | 'Festivals' | 'Private';
 
 const images: { src: string; alt: string; cat: Category; span?: string }[] = [
-  { src: 'https://images.pexels.com/photo/newlyweds-kissing-under-veil-18005581/?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop', alt: 'Wedding slush bar setup', cat: 'Weddings', span: 'sm:col-span-2 sm:row-span-2' },
+  { src: 'https://drive.google.com/file/d/1X3bdA3qj9vXDbci1PZXj9bUlc5G61-rE/view?usp=drive_link?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop', alt: 'Wedding slush bar setup', cat: 'Weddings', span: 'sm:col-span-2 sm:row-span-2' },
   { src: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', alt: 'Corporate event bar', cat: 'Corporate' },
   { src: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', alt: 'Festival slush station', cat: 'Festivals' },
   { src: 'https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', alt: 'Private party drinks', cat: 'Private' },
