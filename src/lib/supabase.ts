@@ -1,7 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 
-// Hardcoding your credentials directly fixes the blank page immediately
-const supabaseUrl = 'https://salbqqnrbjrzurmfrgrx.supabase.co';
-const supabaseAnonKey = 'sb_publishable_KFuFZ3fEUbEmqAwLli_Sow_lmbjNVjB';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY as string;
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
