@@ -27,7 +27,7 @@ export default function Footer() {
         {/* GRID */}
         <div className="grid gap-10 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
 
-          {/* BRAND */}
+          {/* BRAND COLUMN */}
           <div>
             <a href="#home" className="flex items-center">
               <img
@@ -59,7 +59,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* COLUMN LINKS */}
+          {/* LINK COLUMNS */}
           {cols.map((col) => (
             <div key={col.title}>
               <h4 className="font-display text-sm font-bold uppercase tracking-wider text-cream-100/90">
@@ -101,6 +101,7 @@ export default function Footer() {
           </a>
 
         </div>
+
       </div>
     </footer>
   );
