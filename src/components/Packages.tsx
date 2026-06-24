@@ -19,7 +19,7 @@ const packages = [
     featured: false,
   },
   {
-    name: 'The Fête',
+    name: 'The Royal',
     tagline: 'Designed for elevated celebrations',
     price: 'Starting at $1,195 + Tax',
     features: [
