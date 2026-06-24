@@ -59,7 +59,7 @@ export default function Contact() {
           {/* Contact info */}
           <div className="flex flex-col gap-4">
             {[
-              { icon: Mail, label: 'Email', value: 'chillandcheerstaion@gmail.com', href: 'mailto:chillandcheerstation@gmail.com' },
+              { icon: Mail, label: 'Email', value: 'chillandcheerstation@gmail.com', href: 'mailto:chillandcheerstation@gmail.com' },
               { icon: Phone, label: 'Phone', value: '613.366.7811', href: 'tel:+16133667811' },
               { icon: MapPin, label: 'Based in', value: 'Hawkesbury · Serving Eastern Ontario and Western Quebec', href: null },
             ].map((c) => (
