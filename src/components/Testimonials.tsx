@@ -6,25 +6,25 @@ const testimonials = [
   {
     quote: 'The slush bar was the talk of our wedding. Every guest was mesmerised by the display, and the flavors were absolutely divine — it felt like a luxury cocktail bar with a playful twist.',
     name: 'Eleanor & James Whitfield',
-    role: 'Wedding · Oxfordshire',
+    role: 'Wedding · Ottawa',
     img: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop',
   },
   {
-    quote: 'We hired Frost & Fête for our annual product launch and they completely elevated the event. The branded menu and the professionalism of the team exceeded every expectation.',
+    quote: 'We hired Chill & Cheer for our annual product launch and they completely elevated the event. The branded menu and the professionalism of the team exceeded every expectation.',
     name: 'Marcus Delaney',
-    role: 'Brand Director, Halo Cosmetics',
+    role: 'Brand Director, Cosmetics',
     img: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop',
   },
   {
-    quote: 'Our festival needed a bar that could handle thousands of people without compromising on quality. The Grand package delivered flawlessly — fast pours, happy crowds, zero stress.',
+    quote: 'Our festival needed a bar that could handle hundreds of people without compromising on quality. The Grand package delivered flawlessly — fast pours, happy crowds, zero stress.',
     name: 'Priya Nakamura',
-    role: 'Festival Director, Solstice Sounds',
+    role: 'Festival Director',
     img: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop',
   },
   {
     quote: 'Hosted a milestone birthday in our garden and the slush bar transformed the whole evening. Elegant, fun, and the team was an absolute joy to work with. Already booked again.',
     name: 'Charles & Amelia Hartley',
-    role: 'Private Party · Surrey',
+    role: 'Private Party',
     img: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop',
   },
 ];
