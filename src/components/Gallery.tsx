@@ -39,7 +39,7 @@ export default function Gallery() {
             <button
               key={c}
               onClick={() => setActive(c)}
-              className={`rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${
+              className={`rounded-[10px] px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${
                 active === c
                   ? 'bg-pink-500 text-cream-100 shadow-md shadow-pink-500/30'
                   : 'bg-cream-50 text-brown-700 ring-1 ring-brown-700/10 hover:ring-pink-500/40 hover:text-pink-500'
