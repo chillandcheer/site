@@ -99,7 +99,7 @@ export default function Packages() {
                 <ul className="mt-6 flex-1 space-y-3.5">
                   {p.features.map((f) => (
                     <li key={f} className="flex items-start gap-3 text-sm text-brown-700">
-                      <span className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${a.badge.includes('cream') ? 'bg-pink-500/10' : a.badge}`}>
+                      <span className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-[5px] ${a.badge.includes('cream') ? 'bg-pink-500/10' : a.badge}`}>
                         <Check className={`h-3 w-3 ${a.check}`} />
                       </span>
                       {f}
@@ -109,7 +109,7 @@ export default function Packages() {
 
                 <a
                   href="#contact"
-                  className={`mt-8 inline-flex w-full items-center justify-center rounded-[5px] px-6 py-3.5 text-sm font-semibold transition-all duration-300 ${
+                  className={`mt-8 inline-flex w-full items-center justify-center rounded-full px-6 py-3.5 text-sm font-semibold transition-all duration-300 ${
                     p.featured
                       ? 'bg-pink-500 text-cream-100 shadow-lg shadow-pink-500/30 hover:bg-pink-600 hover:-translate-y-0.5'
                       : 'border border-brown-700/15 text-brown-700 hover:border-pink-500 hover:text-pink-500'
