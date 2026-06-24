@@ -5,7 +5,7 @@ const packages = [
   {
     name: 'The Signature',
     tagline: 'Perfect for intimate gatherings',
-    price: 'Starting at $625 + Tax',
+    price: 'Starting at $575 + Tax',
     features: [
       'Ideal for up to 50 guests',
       'Up to 4 hours of service',
