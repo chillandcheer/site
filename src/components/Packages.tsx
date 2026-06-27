@@ -31,6 +31,7 @@ const packages = [
       'Custom signage & styling',
       'Welcome drink station setup',
       '2 professional servers',
+      'Setup and takedown included',
     ],
     accent: 'pink',
     featured: true,
