@@ -32,7 +32,7 @@ export default function Navbar() {
       <nav className="container-luxe flex items-center justify-between py-4">
         <a href="#home" className="group flex items-center">
           <img
-            src="/Logo+Icons_Horizontal.svg"
+            src="/Logo+Icons_Horizontal.png"
             alt="Logo"
             className="h-10 w-auto transition-opacity duration-300 group-hover:opacity-80"
           />
