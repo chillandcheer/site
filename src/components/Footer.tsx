@@ -31,7 +31,7 @@ export default function Footer() {
           <div>
             <a href="#home" className="flex items-center">
               <img
-                src="/Logo+Icons_Horizontal.svg"
+                src="/Logo+Icons_Horizontal.png"
                 alt="Logo"
                 className="h-10 w-auto"
               />
