@@ -169,7 +169,7 @@ export default function Contact() {
                   value={form.eventTime}
                   onChange={(e) => update('eventTime', e.target.value)}
                   className="input-luxe"
-                  placeholder="e.g. 3:00 PM"
+                  placeholder="e.g. 1PM - 3PM"
                 />
               </Field>
               <Field label="Location">
