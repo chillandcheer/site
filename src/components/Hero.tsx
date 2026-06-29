@@ -93,9 +93,9 @@ export default function Hero() {
       <div className="container-luxe mt-16 lg:mt-24">
         <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 border-t border-brown-700/10 pt-8 text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-brown-600/60">
-            Trusted by event planners
+             Trusted by event planners
           </span>
-          {[''].map((b) => (
+          {[].map((b) => (
             <span key={b} className="font-display text-lg font-medium text-brown-700/50">
               {b}
             </span>
