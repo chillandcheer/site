@@ -14,6 +14,8 @@ export default function Contact() {
     phone: '',
     eventType: 'Wedding',
     eventDate: '',
+    eventTime: '',
+    location: '',
     guests: '',
     message: '',
   });
@@ -30,12 +32,14 @@ export default function Contact() {
         phone: form.phone || null,
         event_type: form.eventType,
         event_date: form.eventDate || null,
+        event_time: form.eventTime || null,
+        location: form.location || null,
         guests: form.guests ? parseInt(form.guests, 10) : null,
         message: form.message || null,
       });
       if (error) throw error;
       setStatus('success');
-      setForm({ name: '', email: '', phone: '', eventType: 'Wedding', eventDate: '', guests: '', message: '' });
+      setForm({ name: '', email: '', phone: '', eventType: 'Wedding', eventDate: '', eventTime: '', location: '', guests: '', message: '' });
     } catch {
       setStatus('error');
     }
@@ -59,7 +63,7 @@ export default function Contact() {
           {/* Contact info */}
           <div className="flex flex-col gap-4">
             {[
-              { icon: Mail, label: 'Email', value: 'chillandcheerstation@gmail.com', href: 'mailto:chillandcheerstation@gmail.com' },
+              { icon: Mail, label: 'Email', value: 'chillandcheerstaion@gmail.com', href: 'mailto:chillandcheerstation@gmail.com' },
               { icon: Phone, label: 'Phone', value: '613.366.7811', href: 'tel:+16133667811' },
               { icon: MapPin, label: 'Based in', value: 'Hawkesbury · Serving Eastern Ontario and Western Quebec', href: null },
             ].map((c) => (
@@ -157,6 +161,24 @@ export default function Contact() {
                   value={form.eventDate}
                   onChange={(e) => update('eventDate', e.target.value)}
                   className="input-luxe"
+                />
+              </Field>
+              <Field label="Time">
+                <input
+                  type="text"
+                  value={form.eventTime}
+                  onChange={(e) => update('eventTime', e.target.value)}
+                  className="input-luxe"
+                  placeholder="e.g. 3:00 PM"
+                />
+              </Field>
+              <Field label="Location">
+                <input
+                  type="text"
+                  value={form.location}
+                  onChange={(e) => update('location', e.target.value)}
+                  className="input-luxe"
+                  placeholder="Venue or city"
                 />
               </Field>
               <Field label="Guests">
