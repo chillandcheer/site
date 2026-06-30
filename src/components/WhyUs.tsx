@@ -41,7 +41,7 @@ export default function WhyUs() {
   return (
     <section
       id="whyus"
-      className="relative bg-brown-700 py-24 lg:py-32 overflow-hidden scroll-mt-5"
+      className="relative bg-brown-700 py-24 lg:py-32 overflow-hidden scroll-mt-0"
     >
       {/* grain texture */}
       <div className="pointer-events-none absolute inset-0 bg-grain opacity-40" />
