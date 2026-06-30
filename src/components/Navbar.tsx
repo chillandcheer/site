@@ -2,13 +2,13 @@ import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const links = [
-  { label: 'Services', href: '#services' },
-  { label: 'Why Us', href: '#whyus' },
-  { label: 'Packages', href: '#packages' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Reviews', href: '#testimonials' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Services', href: 'services' },
+  { label: 'Why Us', href: 'whyus' },
+  { label: 'Packages', href: 'packages' },
+  { label: 'Gallery', href: 'gallery' },
+  { label: 'Reviews', href: 'testimonials' },
+  { label: 'FAQ', href: 'faq' },
+  { label: 'Contact', href: 'contact' },
 ];
 
 export default function Navbar() {
