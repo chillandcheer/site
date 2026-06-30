@@ -5,7 +5,7 @@ const pillars = [
   {
     icon: Tag,
     title: 'Fully Branded',
-    desc: 'Custom signage*, branded glassware* & colour-matched flavours for your event theme.',
+    desc: 'Custom signage, branded glassware & colour-matched flavours for your event theme.',
     accent: 'pink',
   },
   {
@@ -58,7 +58,7 @@ export default function WhyUs() {
           </span>
           <h2 className="section-title text-cream-50">
             Not just a drink station.{' '}
-            <span className="italic text-pink-400"> A whole experience.</span>
+            <span className="whitespace-nowrap italic text-pink-400">A whole experience.</span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-cream-50/70">
             Forget the basic bar setup. Chill &amp; Cheer transforms your event with a fully branded
