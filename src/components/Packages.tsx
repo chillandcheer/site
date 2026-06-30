@@ -8,7 +8,7 @@ const packages = [
     price: 'Starting at $575 + Tax',
     features: [
       'Ideal for up to 50 guests',
-      'Up to 4 hours of service',
+      'Up to 3 hours of service',
       '2 signature slush flavours (10L each)',
       '2 standard toppings',
       'Cups & straws',
