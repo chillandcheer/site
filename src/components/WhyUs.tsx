@@ -39,9 +39,10 @@ export default function WhyUs() {
   const { ref, visible } = useReveal();
 
   return (
-    <section
-      id="whyus"
-      className="relative bg-brown-700 py-24 lg:py-32 overflow-hidden scroll-mt-16"
+    <section id="whyus" className="relative overflow-hidden bg-brown-700 py-24 lg:py-32">
+      <div className="pointer-events-none absolute -right-20 top-10 h-72 w-72 rounded-full bg-pink-500/10 blur-3xl" />
+      <div className="pointer-events-none absolute -left-20 bottom-10 h-72 w-72 rounded-full bg-teal-400/10 blur-3xl" />
+
     >
       {/* grain texture */}
       <div className="pointer-events-none absolute inset-0 bg-grain opacity-40" />
